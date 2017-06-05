@@ -43,6 +43,7 @@ def scale(data):
 def train_svm():
     """
     this function trains a SVM model with default the panelty and kernel.
+    TODO use CV to select the parameters.
     param:
         None
     return:
